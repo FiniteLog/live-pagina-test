@@ -1,0 +1,137 @@
+body{
+    border-color: black;
+    border: solid;
+    border-radius: 10px;
+    border-width: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    border-bottom: solid;
+    padding: 20px;
+    align-items: center;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+a{
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    width: max-content;
+}
+
+a:hover{
+    background-color: #2d3648;
+    color: #fff
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    padding: 20px 60px 20px 60px;
+    border-bottom: solid;
+    background-image: url('../images/oscar 2.webp');
+    color: #fff;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: center;
+}
+
+
+
+h1{
+    font-size: 40px;
+}
+
+header p{
+    text-align: center;
+}
+
+.header-paragraph{
+    max-width: 50%;
+}
+
+div{
+    flex-direction: row;
+}
+
+.header-links{
+    border-radius: 8px;
+    margin: 0 10px 0 10px;
+    border: solid;
+}
+
+main{
+    box-sizing: border-box;
+    margin: 0 10% 0 10%;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.main-body{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap:5vh;
+}   
+
+.main-reviews{
+    box-sizing: border-box;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    margin-right: 2vw;
+}
+
+.main-reviews-text{
+    h3{
+        font-size: 25px;
+    }
+    padding: 20px;
+}
+
+main a{
+    margin: 0 0 20px 20px;
+    margin-top: auto;
+}
+
+img{
+    border-radius: 6px 6px 0 0  ;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1a202c;
+    color: #fff;
+    padding: 50px;
+    margin-top: 40px;
+    border-radius: 0 0 5px 5px;
+}
+
+.footer-legal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer-legal a{
+    font-size: small;
+    color: #a0abc0 ;
+}
